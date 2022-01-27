@@ -12,6 +12,8 @@
    ``` 
 4. Generate wireguard config files from your VPN provider
     * Mullvad example:  https://mullvad.net/en/account/#/wireguard-config/?platform=windows
+5. Install speedtest-cli
+    * https://www.speedtest.net/apps/cli
 
 ## How to run the benchmark script
 1. Open `benchmark_wireguard_vpn_servers.py` and edit the `VPN_CONFIG_DIR` variable defined at the top to point to the directory containing all wireguard config files.
